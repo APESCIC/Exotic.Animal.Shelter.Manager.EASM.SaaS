@@ -1,0 +1,22 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+credentials.txt
+**/credentials.txt
+
+# Dependencies and generated trees (when the app exists)
+vendor/
+node_modules/
+public/build/
+public/hot
+dist/
+coverage/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+bootstrap/cache/
